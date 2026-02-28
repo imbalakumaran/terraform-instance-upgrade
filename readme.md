@@ -33,6 +33,8 @@ aws ec2 describe-instances \
   --instance-ids i-03b0561544a15a4bb \
   --query 'Reservations[*].Instances[*].[InstanceType,State.Name]' \
   --output table
+
+sed -i.bak 's/t3\.medium/t3.xlarge/g' terraform.tfvars
 ```
 
 You should see:
