@@ -41,9 +41,10 @@ You should see:
 ~ instance_type = "t3.medium" -> "t3.large"
 ```
 
-If it shows only `~` update → Same instance resized in-place using Amazon Web Services API.
+```
+terraform state show aws_instance.server
+```
 
----
 
 # ✅ Final Local Structure (Minimal & Clean)
 
