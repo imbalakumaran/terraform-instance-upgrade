@@ -1,7 +1,7 @@
-aws_region        = "us-east-2"
-ami_id            = "ami-0b9064170e32bde34"
+aws_region        = "ap-south-1"
+ami_id            = "ami-087d1c9a513324697"
 instance_type     = "t3.medium"
-subnet_id         = "subnet-a8a3fed2"
-security_group_ids = ["sg-0d6bf08392e3ae026"]
-key_name          = "go4rent"
-instance_name     = "Facilitv, Matchrealestate, Mailpits"
+subnet_id         = "subnet-6792ea0e"
+security_group_ids = ["sg-0e9097e46998e1b0b"]
+key_name          = "stutzee"
+instance_name     = "Stutzee-Prod"
